@@ -1,0 +1,70 @@
+// 將您的設定放入此檔案中以覆寫預設值
+{
+    "editor.fontSize": 20,
+    "editor.wordWrap": true,
+    "typescript.check.tscVersion": false,
+    "workbench.iconTheme": "vscode-icons",
+    "git.confirmSync": false,
+    "vsicons.projectDetection.autoReload": true,
+    "git.enableSmartCommit": true,
+    "extensions.autoUpdate": false,
+    "workbench.colorTheme": "Monokai Light",
+    "workbench.startupEditor": "newUntitledFile",
+    "angulardoc.username": "moon791017@gmail.com",
+    "angulardoc.email": "moon791017@gmail.com",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "window.zoomLevel": 0,
+    "editor.snippetSuggestions": "top",
+    "vsicons.dontShowNewVersionMessage": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": true,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": true,
+        "suppressWelcomeNotice": false
+    },
+    "extensions.ignoreRecommendations": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+       
+    "**/*.map":true,
+    "**/app/**/*.js":false,
+    "*.js":false
+    
+    },
+    "csharp.format.enable": false,
+    "msbuildProjectTools": {
+        "logging": {
+            "level": "Information",
+            "seq": {},
+            "file": "",
+            "trace": false
+        },
+        "language": {
+            "disableFeature": {},
+            "useClassicProvider": false,
+            "disable": {
+                "hover": false
+            }
+        },
+        "nuget": {
+            "newestVersionsFirst": true,
+            "includePreRelease": true,
+            "disablePrefetch": false
+        },
+        "schemaVersion": 1
+    },
+    "python.envFile": "/usr/local/Cellar/python3/3.6.1/bin:${PATH}",
+    "gitlens.keymap": "none"
+}
